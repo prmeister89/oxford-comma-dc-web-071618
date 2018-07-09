@@ -1,13 +1,12 @@
 def oxford_comma(array)
-  new_array = array.to_a
-  
-  if new_array.length == 1 
-    return new_array
-  elsif new_array.length == 2
-    return new_array.split(" and ")
-  elsif new_array.length == 3
-    3_array = []
-    3_array << 
+  array.split("")
+  if array.length == 1 
+    return array.to_a
+  elsif array.length == 2
+    return array.split(" and ")
+  elsif array.length == 3
+    new_array = []
+    new_array << 
   
   
 end
