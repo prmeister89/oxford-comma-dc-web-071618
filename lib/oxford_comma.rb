@@ -1,7 +1,8 @@
 def oxford_comma(array)
-  if array === 1 
+  if array.legnth === 1 
     return array
-  elsif array === 2
+  elsif array.le === 2
     return array.split(" and ")
+  elsif array ===
   
 end
