@@ -6,8 +6,8 @@ def oxford_comma(array)
   elsif array.length == 2
     return array.split(" and ")
   elsif array.length == 3
-    new_array = []
-    new_array << 
+    3_array = []
+    3_array << 
   
   
 end
