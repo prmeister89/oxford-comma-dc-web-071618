@@ -1,4 +1,6 @@
 def oxford_comma(array)
+  array.to_a
+  
   if array.length == 1 
     return array.to_a
   elsif array.length == 2
