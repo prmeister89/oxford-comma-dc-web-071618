@@ -6,7 +6,7 @@ def oxford_comma(array)
     last_index = array[-1]
     new_array << array[0..-2]
     
-    return new_array + " and " +last_index
+    return new_array + " and " + last_index
   elsif array.length == 2
     return array.join(" and ")
   else 
