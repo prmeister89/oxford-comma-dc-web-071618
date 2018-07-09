@@ -3,8 +3,9 @@ def oxford_comma(array)
   
   if array.length >= 3
     new_array = []
-    new_array << array[0..-2] + `and #{array[-1]}`
     binding.pry
+    new_array << array[0..-2] + `and #{array[-1]}`
+    
     
     return new_array.join(",")
   elsif array.length == 2
