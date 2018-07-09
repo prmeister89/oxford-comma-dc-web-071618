@@ -6,7 +6,7 @@ def oxford_comma(array)
     binding.pry
     new_array << array[0..-2]
     new_array.push("and #{array[-1]}")
-    new_array
+    new_array.flatten
     
     return new_array.join(",")
   elsif array.length == 2
