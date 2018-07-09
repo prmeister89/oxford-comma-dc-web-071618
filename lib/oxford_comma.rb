@@ -2,10 +2,9 @@ require 'pry'
 def oxford_comma(array)
   
   if array.length >= 3
-    new_array = []
-    new_array << array + array.insert(-2," and ")
+    array.insert(-2," and ")
     binding.pry
-    return array.join(",") + new_array
+    return array.join(",")
   elsif array.length == 2
     return array.join(" and ")
   else 
